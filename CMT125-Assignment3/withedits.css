@@ -1,0 +1,186 @@
+
+body {
+	margin: 20px 0 0 0;
+	padding: 0;
+	text-align: left;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #061C37;
+	background-color: #79ff8f;
+    overflow-x: hidden;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+#container
+{
+  display: block; 
+  height:auto;
+  position: relative; 
+  width: 940px;
+}
+
+#mainpic h1
+{
+position:absolute;
+text-align:right;
+font-size:30px;
+color:#AB970C;
+left:600px;
+top:220px;
+}
+
+
+#mainpic h2
+{
+position:absolute;
+text-align:right;
+color:#776906;
+left:600px;
+top:252px;
+}
+
+#mainpic
+{
+background-image:url(https://www.html.am/templates/downloads/bryantsmith/whiteflower/images/main.jpg);
+background-repeat:no-repeat;
+width:900px;
+height:354px;
+border: 30px double blue;
+border-radius: 25px;
+margin-left: 35px;	
+}
+
+
+
+.lighter
+{
+color:#F2D76A;
+	
+}
+
+
+
+
+#menu
+{
+
+width:940px;
+height:50px;
+float:left;
+clear:both;
+margin-top: 18px;
+background-color: rgb(185, 185, 255);
+border: 5px solid black;
+padding-left:40px;
+padding-right:40px;
+margin-left: 5px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#content
+{
+width:880px;
+height:auto;
+background-color:rgb(185, 185, 255);
+border: 10px double blue;
+border-radius: 25px;
+padding-left:70px;
+padding-right:70px;
+padding-bottom:5px;
+margin-bottom: 20px;
+margin-top: 110px;
+}
+
+#content p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#content h2 {
+    padding: 3rem;
+
+}
+
+#content h3 {
+    margin-bottom: 2rem;
+    margin-left: 350px;
+    margin-right: 415px;
+    margin-top: 30px;
+    padding: 10px;
+    border: 5px dotted white;
+    text-align: center;
+}
+
+#content a,a:visited {
+    padding: 2px;
+    border: 1px solid blue;
+}
+
+#footer
+{
+width:inherit;
+height:auto;
+padding-left: 45%;
+padding-bottom: 5%;
+}
+
+#footer h3 a,#footer h3 a:visited
+{
+display:inline;
+text-align:center;
+font-size:12px;
+text-decoration:none;
+color:blue;
+}
+
+a,a:visited
+{
+color:blue;
+text-decoration:none;
+font-weight:bold;
+}
+
+#menu ul {
+	list-style: none;
+	padding-top: 0px;
+	margin-left: auto;
+	width:900px;
+}
+
+#menu li {
+	list-style: none;
+	padding: 0px;	
+	display: inline; 
+	
+}
+
+#menu a,#menu a:visited {
+	float: left;
+	width: 150px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+	padding-top: 16px;
+	font-size: 17px;
+}
+
+#menu a:hover{
+	color:blue;
+}
+
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+#botlink {
+    padding-right: 900px;
+}
